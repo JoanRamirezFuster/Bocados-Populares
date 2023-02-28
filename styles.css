@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(/img/wallpaper.jpg);
+}
+
+#header {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(4px);
+  border-bottom: solid 2px white;
+}
+
+#header img {
+  width: 85px;
+}
+
+#header li {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+#header a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+}
+
+#header a:hover {
+  text-decoration: underline 3px;
+}
+
+#main {
+  width: 90%;
+  margin: auto;
+}
+
+#titulo {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+  background-color: black;
+  width: 25%;
+  border-radius: 20px;
+  border: solid 2px white;
+}
+
+#subtitulo {
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin: 20px auto 0;
+}
+
+#ciudad {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+  background-color: black;
+  width: 30%;
+  border-radius: 20px;
+  border: solid 2px white;
+}
+
+#restaurantes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 0px auto 200px;
+}
+
+#restaurante {
+  width: 450px;
+  background-color: black;
+  padding: 25px;
+  color: white;
+  border-radius: 20px;
+  border: solid 2px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 650px;
+}
+
+#restaurante h1 {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+#restaurante a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(189, 145, 0);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#restaurante a:hover {
+  text-decoration: underline 2px;
+}
+
+#restaurante img {
+  width: 300px;
+  border: solid 2px white;
+  border-radius: 10px;
+}
+
+#redes_sociales {
+  background-color: transparent;
+}
+
+#redes_sociales img {
+  width: 50px;
+}
+
+#carta_presentacion {
+  text-align: center;
+  background-color: black;
+  margin: 0px auto 200px;
+  font-weight: 900;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 50%;
+  color: white;
+  border-radius: 20px;
+  border: solid 2px white;
+  padding: 30px;
+  line-height: 1.7rem;
+}
+
+#imagen_grupo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#carta_presentacion img {
+  width: 400px;
+  border-radius: 20px;
+  border: solid 2px white;
+}
