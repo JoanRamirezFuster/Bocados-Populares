@@ -5,3 +5,4 @@
 <h3 align="center">📞Telefono de contacto📞</h3>
 <h3 align="center">🖥Pagina Web🖥</h3>
 <h3 align="center">🧭Dirección🧭</h3>
+<img src="https://raw.githubusercontent.com/JoanRamirezFuster/BOCADOSPOPULARES/master/img/img_presentacion_web.png" alt="foto_plato_can_pedro" />
