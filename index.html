@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="restaurantes.js"></script>
     <link
       rel="shortcut icon"
       href="/img/logo_bocados.png"
@@ -15,164 +16,31 @@
   <body>
     <div id="header">
       <img src="/img/logo_bocados.png" alt="logo_bocados" />
-      <header>
-        <nav>
-          <ul>
-            <li>
-              <a href="#">Inicio</a>
-              <a href="#restaurantes">Restaurantes</a>
-              <a href="#carta_presentacion">¿Quién Soy?</a>
-              <a href="">Inicio</a>
-              <a href="">Inicio</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
     </div>
-    <!-- Manacor -->
     <div id="main">
       <div id="titulo">
         <h1>Restaurantes</h1>
       </div>
-      <div id="ciudad">
-        <h1>Ciudad: Manacor | Mallorca</h1>
-      </div>
-      <div id="restaurantes">
-        <div id="restaurante">
-          <h1>Taqueria MX</h1>
-          <p id="subtitulo">Horario:</p>
-          <p>Lunes 13:00–15:30 | 20:00–23:00</p>
-          <p>Martes Cerrado</p>
-          <p>Miércoles 20:00–23:00</p>
-          <p>Jueves 13:00–15:30 | 20:00–23:00</p>
-          <p>Viernes 13:00–15:30 | 20:00–23:00</p>
-          <p>Sábado 13:00–15:30 | 20:00–23:00</p>
-          <p>Domingo 13:00–15:30 | 20:00–23:00</p>
-          <p id="subtitulo">Menu:</p>
-          <a
-            target="_blank"
-            href="https://www.haztucartadigital.com/restaurante-taqueria-mx-manacor"
-            >Menu Taqueria MX</a
-          >
-          <p id="subtitulo">Ubicación:</p>
-          <p>Carrer de l'Amistat, 5, 07500 Manacor, Mallorca</p>
-          <p id="subtitulo">Imagen:</p>
-          <img src="/img/img_taqueria_mx.jpg" alt="foto_taqueria_mx" />
-        </div>
+      <input
+        type="text"
+        id="search-input"
+        name="search-input"
+        placeholder="¿En qué ciudad quieres ir a comer?"
+        list="ciudades"
+      />
 
-        <div id="restaurante">
-          <h1>Es Celler</h1>
-          <p id="subtitulo">Horario:</p>
-          <p>Lunes 7:30–23:00</p>
-          <p>Martes 7:30–23:00</p>
-          <p>Miercoles 7:30–23:00</p>
-          <p>Jueves 7:30–23:00</p>
-          <p>Viernes 7:30–23:00</p>
-          <p>Sábado 7:30–23:00</p>
-          <p>Domingo 7:30–23:00</p>
-          <p id="subtitulo">Menu:</p>
-          <a
-            target="_blank"
-            href="https://carta.menu/restaurants/manacor/es-celler-de-manacor"
-            >Menu Es Celler</a
-          >
-          <p id="subtitulo">Ubicación:</p>
-          <p>Passeig d'Antoni Maura, 91, 07500 Manacor, Mallorca</p>
-          <p id="subtitulo">Imagen:</p>
-          <img src="/img/img_es_celler.jpg" alt="foto_es_celler" />
-        </div>
+      <datalist id="ciudades">
+        <option value="Manacor"></option>
+        <option value="Arta"></option>
+        <option value="Palma de Mallorca"></option>
+        <option value="Inca"></option>
+        <option value="Alcudia"></option>
+        <option value="Soller"></option>
+      </datalist>
 
-        <div id="restaurante">
-          <h1>Carpe Diem</h1>
-          <p id="subtitulo">Horario:</p>
-          <p>Lunes 7:30–24:00</p>
-          <p>Martes 7:30–24:00</p>
-          <p>Miercoles 7:30–24:00</p>
-          <p>Jueves 7:30–24:00</p>
-          <p>Viernes 7:30–24:00</p>
-          <p>Sábado 7:30–24:00</p>
-          <p>Domingo 8:00–24:00</p>
-          <p id="subtitulo">Menu:</p>
-          <a
-            target="_blank"
-            href="https://www.tripadvisor.es/Restaurant_Review-g580304-d6024258-Reviews-Carpe_diem-Manacor_Majorca_Balearic_Islands.html"
-            >Menu Carpe Diem</a
-          >
-          <p id="subtitulo">Ubicación:</p>
-          <p>Avinguda De Baix d'es Cos, 37, 07500 Manacor, Mallorca</p>
-          <p id="subtitulo">Imagen:</p>
-          <img src="/img/img_carpe_diem.jpg" alt="foto_carpe_diem" />
-        </div>
-      </div>
-      <!-- Arta -->
-      <div id="ciudad">
-        <h1>Ciudad: Arta | Mallorca</h1>
-      </div>
-      <div id="restaurantes">
-        <div id="restaurante">
-          <h1>Es rebost de can Mauro</h1>
-          <p id="subtitulo">Horario:</p>
-          <p>Lunes 7:30–24:00</p>
-          <p>Martes 7:30–24:00</p>
-          <p>Miercoles 7:30–24:00</p>
-          <p>Jueves 7:30–24:00</p>
-          <p>Viernes 7:30–24:00</p>
-          <p>Sábado 7:30–24:00</p>
-          <p>Domingo 8:00–24:00</p>
-          <p id="subtitulo">Menu:</p>
-          <a target="_blank" href="http://www.canmauro.com/es.html"
-            >Menu Can Mauro</a
-          >
-          <p id="subtitulo">Ubicación:</p>
-          <p> Plaça del Conqueridor, 8, 07570 Artà, Mallorca</p>
-          <p id="subtitulo">Imagen:</p>
-          <img src="/img/img_can_mauro.jpg" alt="foto_can_mauro" />
-        </div>
+      <button onclick="search()">Buscar</button>
 
-        <div id="restaurante">
-          <h1>Ca'n Jaume</h1>
-          <p id="subtitulo">Horario:</p>
-          <p>Lunes 8:00–16:00</p>
-          <p>Martes 8:00–16:00</p>
-          <p>Miercoles 8:00–16:00</p>
-          <p>Jueves 8:00–16:00 | 20:00-23:00</p>
-          <p>Viernes 8:00–16:00 | 19:30-23:00</p>
-          <p>Sábado 8:00–16:00 | 20:00-23:00</p>
-          <p>Domingo Cerrado</p>
-          <p id="subtitulo">Menu:</p>
-          <a
-            target="_blank"
-            href="https://www.tripadvisor.es/Restaurant_Review-g616236-d2232146-Reviews-Ca_n_Jaume-Arta_Majorca_Balearic_Islands.html"
-            >Menu Ca'n Jaume</a
-          >
-          <p id="subtitulo">Ubicación:</p>
-          <p>Carrer de Cristòfol Ferrer Pons, 13, 07570 Artà, Mallorca</p>
-          <p id="subtitulo">Imagen:</p>
-          <img src="/img/img_can_jaume.jpg" alt="foto_plato_can_pedro" />
-        </div>
-
-        <div id="restaurante">
-          <h1>Pizzeria Sa Plaça</h1>
-          <p id="subtitulo">Horario:</p>
-          <p>Lunes 11:00–23:00</p>
-          <p>Martes 11:00–23:00</p>
-          <p>Miércoles 11:00–23:00</p>
-          <p>Jueves 11:00–23:00</p>
-          <p>Viernes 11:00–23:00</p>
-          <p>Sábado 11:00–23:00</p>
-          <p>Domingo 11:00–23:00</p>
-          <p id="subtitulo">Menu:</p>
-          <a
-            target="_blank"
-            href="https://www.tripadvisor.es/Restaurant_Review-g580304-d6024258-Reviews-Carpe_diem-Manacor_Majorca_Balearic_Islands.html"
-            >Menu Carpe Diem</a
-          >
-          <p id="subtitulo">Ubicación:</p>
-          <p>Avinguda De Baix d'es Cos, 37, 07500 Manacor, Mallorca</p>
-          <p id="subtitulo">Imagen:</p>
-          <img src="/img/img_sa_plaça.jpeg" alt="foto_plato_can_pedro" />
-        </div>
-      </div>
+      <div id="results"></div>
 
       <div id="titulo">
         <h1>¿Quién Soy?</h1>
@@ -195,5 +63,7 @@
         </div>
       </div>
     </div>
+
+    <img src="/img/video_presentacion_web.gif" alt="">
   </body>
 </html>

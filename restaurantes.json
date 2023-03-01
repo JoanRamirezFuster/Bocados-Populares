@@ -1,0 +1,100 @@
+{
+  "restaurantes": [
+    {
+      "nombre": "Taqueria MX",
+      "ciudad": "Manacor",
+      "horario": {
+        "lunes": "13:00–15:30 | 20:00–23:00",
+        "martes": "Cerrado",
+        "miércoles": "20:00–23:00",
+        "jueves": "13:00–15:30 | 20:00–23:00",
+        "viernes": "13:00–15:30 | 20:00–23:00",
+        "sábado": "13:00–15:30 | 20:00–23:00",
+        "domingo": "13:00–15:30 | 20:00–23:00"
+      },
+      "menu": "https://www.haztucartadigital.com/restaurante-taqueria-mx-manacor",
+      "ubicacion": "Carrer de l'Amistat, 5, 07500 Manacor, Mallorca",
+      "imagen": "/img/img_taqueria_mx.jpg"
+    },
+    {
+      "nombre": "Es Celler",
+      "ciudad": "Manacor",
+      "horario": {
+        "lunes": "7:30-23:00",
+        "martes": "7:30-23:00",
+        "miércoles": "7:30-23:00",
+        "jueves": "7:30-23:00",
+        "viernes": "7:30-23:00",
+        "sábado": "7:30-23:00",
+        "domingo": "7:30-23:00"
+      },
+      "menu": "https://carta.menu/restaurants/manacor/es-celler-de-manacor",
+      "ubicacion": "Passeig d'Antoni Maura, 91, 07500 Manacor, Mallorca",
+      "imagen": "/img/img_es_celler.jpg"
+    },
+    {
+      "nombre": "Carpe Diem",
+      "ciudad": "Manacor",
+      "horario": {
+        "lunes": "7:30-24:00",
+        "martes": "7:30-24:00",
+        "miércoles": "7:30-24:00",
+        "jueves": "7:30-24:00",
+        "viernes": "7:30-24:00",
+        "sábado": "7:30-24:00",
+        "domingo": "8:00-24:00"
+      },
+      "menu": "https://es.restaurantguru.com/Carpe-Diem-Manacor/menu",
+      "ubicacion": "Avinguda de Baix d'es Cos, 37, 07500 Manacor, Mallorca",
+      "imagen": "/img/img_carpe_diem.jpg"
+    },
+    {
+      "nombre": "Es Mingo",
+      "ciudad": "Manacor",
+      "horario": {
+        "lunes": "6:00-1:00",
+        "martes": "6:00-1:00",
+        "miércoles": "6:00-1:00",
+        "jueves": "6:00-1:00",
+        "viernes": "6:00-1:00",
+        "sábado": "6:00-1:00",
+        "domingo": "6:00-1:00"
+      },
+      "menu": "https://www.tripadvisor.es/Restaurant_Review-g580304-d3164506-Reviews-Bar_Mingo-Manacor_Majorca_Balearic_Islands.html",
+      "ubicacion": "Plaça de Ramon Llull, 12, 07500 Manacor, Mallorca",
+      "imagen": "/img/img_es_mingo.jpg"
+    },
+    {
+        "nombre": "Ses Comes",
+        "ciudad": "Manacor",
+        "horario": {
+          "lunes": "Cerrado",
+          "martes": "19:00-23:30",
+          "miércoles": "19:00-23:30",
+          "jueves": "19:00-23:30",
+          "viernes": "19:00-23:30",
+          "sábado": "13:00-16:00 | 19:00-23:30",
+          "domingo": "13:00-16:00 | 19:00-23:30"
+        },
+        "menu": "https://cafegrafic.es/sescomes/",
+        "ubicacion": "Ronda del Port, 22, 07500 Manacor, Mallorca",
+        "imagen": "/img/img_ses_comes.jpg"
+      },
+      {
+        "nombre": "Perla Brillante",
+        "ciudad": "Manacor",
+        "horario": {
+          "lunes": "12:00-16:00 | 19:30-23:00",
+          "martes": "19:30-23:00",
+          "miércoles": "12:00-16:00 | 19:30-23:00",
+          "jueves": "12:00-16:00 | 19:30-23:00",
+          "viernes": "12:00-16:00 | 19:30-23:00",
+          "sábado": "12:00-16:00 | 19:30-23:00",
+          "domingo": "12:00-16:00 | 19:30-23:00"
+        },
+        "menu": "https://es.restaurantguru.com/Restaurante-Perla-Brillante-Manacor/menu",
+        "ubicacion": "Carrer d'en Sebastià Rubí, 15, bajo, 07500 Manacor, Mallorca",
+        "imagen": "/img/img_perla_brillante.jpg"
+      }
+  ]
+}

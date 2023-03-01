@@ -25,7 +25,7 @@ body {
 }
 
 #header img {
-  width: 85px;
+  width: 100px;
 }
 
 #header li {
@@ -49,6 +49,30 @@ body {
   margin: auto;
 }
 
+input {
+  padding: 25px;
+  width: 90%;
+  background-color: rgb(255, 255, 255);
+  font-size: 2rem;
+  border-radius: 20px;
+  border: transparent;
+  margin: 0 0 50px;
+}
+
+button {
+  text-align: center;
+  padding: 25px;
+  background-color: rgb(255, 153, 0);
+  font-size: 2rem;
+  border-radius: 20px;
+  border: transparent;
+  text-align: center;
+}
+
+button:hover {
+  text-decoration: underline 3px;
+}
+
 #titulo {
   margin: 50px auto;
   display: flex;
@@ -59,55 +83,44 @@ body {
   width: 25%;
   border-radius: 20px;
   border: solid 2px white;
+  font-size: 1.3rem;
 }
 
-#subtitulo {
-  font-size: 1.2rem;
-  font-weight: 900;
-  margin: 20px auto 0;
-}
-
-#ciudad {
-  margin: 50px auto;
+#results {
   display: flex;
-  justify-content: center;
-  color: white;
-  padding: 20px;
-  background-color: black;
-  width: 30%;
-  border-radius: 20px;
-  border: solid 2px white;
-}
-
-#restaurantes {
-  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.restaurant {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-  margin: 0px auto 200px;
-}
-
-#restaurante {
-  width: 450px;
+  width: 500px;
   background-color: black;
   padding: 25px;
   color: white;
   border-radius: 20px;
   border: solid 2px white;
   display: flex;
+  gap: 20px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 650px;
+  height: 700px;
 }
 
-#restaurante h1 {
+.restaurant h1 {
   font-size: 2rem;
   text-decoration: underline;
+  padding-bottom: 20px;
 }
 
-#restaurante a {
+.restaurant a {
   text-decoration: none;
   color: white;
   background-color: rgb(189, 145, 0);
@@ -115,22 +128,14 @@ body {
   border-radius: 5px;
 }
 
-#restaurante a:hover {
+.restaurant a:hover {
   text-decoration: underline 2px;
 }
 
-#restaurante img {
+.restaurant img {
   width: 300px;
   border: solid 2px white;
   border-radius: 10px;
-}
-
-#redes_sociales {
-  background-color: transparent;
-}
-
-#redes_sociales img {
-  width: 50px;
 }
 
 #carta_presentacion {
