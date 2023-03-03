@@ -3,6 +3,7 @@
 <h3 align="center">⌚Horario⌚</h3>
 <h3 align="center">📜Menú📜</h3>
 <h3 align="center">🧭Dirección🧭</h3>
+<h3 align="center">🛸Imagen🛸</h3>
 <br>
 <br>
 <h1 align="center">◄ Hecho con ►</h1>
